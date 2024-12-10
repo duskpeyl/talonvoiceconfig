@@ -1,0 +1,20 @@
+# Terminal-specific Commands
+make folder: "mkdir"
+show files: "ls"
+change folder: "cd"
+node: "node "
+june extension: ".js"
+june package: "npm init --y"
+code: "code ."
+echo: "echo "
+touch: "touch "
+
+# Coding-specific Commands
+console log: "console.log()"
+and: "&&"
+
+# Miscellaneous
+open* Tick Talk: "TikTok"
+period: "."
+Jason: "json"
+clock: "https://app.clockify.me/tracker"
