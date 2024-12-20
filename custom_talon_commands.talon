@@ -11,17 +11,19 @@ remove: "rm"
 ## Node/NPM
 node: "node "
 node monitor: "npx nodemon "
-june: ".js"
+javascript: ".js"
 june package: "npm init --y"
 install node monitor: "npm install --save-dev nodemon"
 
 ## MongoDB
 install mongodb: "npm install mongodb"
+install mongoose: "npm install mongoose"
 
 ## Python
 create virtual environment: "python3 -m venv .venv"
 
 # Coding-specific Commands
+
 ## Express.js
 express get route: "app.get('/', (request, response) => {})"
 express post route: "app.post('/', (request, response) => {})"
@@ -35,11 +37,14 @@ express error handling middleware: "app.use((error, request, response, next) => 
 install express: "npm install express"
 next: "next()"
 
+## 
+
 ## Javascript
 console log: "console.log()"
 and: "&&"
 not: "!"
 const: "const"
+
 
 # Miscellaneous
 open* Tick Talk: "TikTok"
@@ -47,3 +52,19 @@ period: "."
 Jason: "json"
 clock: "https://app.clockify.me/tracker"
 era: "error"
+
+arrow: "->"
+fat arrow: "=>"
+op dub: " => "
+(op | is) equal: " == "
+(op | is) not equal: " != "
+(op | is) greater [than] or equal: " >= "
+(op | is) less [than] or equal: " <= "
+
+# Keyboard Shortcuts
+save: Key("cmd-s")
+copy: Key("cmd-c")
+cut: Key("cmd-x")
+menu help: Key("cmd-shift-?")
+
+
