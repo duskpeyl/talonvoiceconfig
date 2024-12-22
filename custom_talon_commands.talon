@@ -37,16 +37,17 @@ express error handling middleware: "app.use((error, request, response, next) => 
 install express: "npm install express"
 next: "next()"
 
-## 
-
 ## Javascript
 console log: "console.log()"
 and: "&&"
 not: "!"
 const: "const"
+let: "let"
+async: "async"
 
 
 # Miscellaneous
+talent voice: "talon voice"
 open* Tick Talk: "TikTok"
 period: "."
 Jason: "json"
@@ -62,9 +63,9 @@ op dub: " => "
 (op | is) less [than] or equal: " <= "
 
 # Keyboard Shortcuts
-save: Key("cmd-s")
-copy: Key("cmd-c")
-cut: Key("cmd-x")
-menu help: Key("cmd-shift-?")
+save: key("ctrl-s")
+copy: key("ctrl-c")
+cut: key("ctrl-x")
+menu help: key("cmd-shift-?")
 
 
