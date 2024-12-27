@@ -6,4 +6,6 @@ This repository contains my personal Talon Voice configurations, designed to enh
 
 This is a personal configuration but feel free to fork it and make your own modifications. If you have suggestions or find useful extensions, I'm always open to collaboration.
 
+## Personal Note 
 
+**Dub quote changed to dub in keys.py file 
