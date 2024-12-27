@@ -34,6 +34,7 @@ express all route: "app.all('/', (request, response) => {})"
 express send response: "response.send()"
 express listen: "app.listen(port, () => {})"
 express error handling middleware: "app.use((error, request, response, next) => {});"
+express use route: "app.use();"
 install express: "npm install express"
 next: "next()"
 
@@ -66,6 +67,6 @@ op dub: " => "
 save: key("ctrl-s")
 copy: key("ctrl-c")
 cut: key("ctrl-x")
-menu help: key("cmd-shift-?")
+menu help: key("ctrl-shift-?")
 
 
