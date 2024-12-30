@@ -35,8 +35,9 @@ express send response: "response.send()"
 express listen: "app.listen(port, () => {})"
 express error handling middleware: "app.use((error, request, response, next) => {});"
 express use route: "app.use();"
+
 install express: "npm install express"
-next: "next()"
+next function: "next()"
 
 ## Javascript
 console log: "console.log()"
@@ -68,5 +69,6 @@ save: key("ctrl-s")
 copy: key("ctrl-c")
 cut: key("ctrl-x")
 menu help: key("ctrl-shift-?")
-
+peck: key("alt-;")
+close tab: key("alt-f4")
 
