@@ -9,3 +9,4 @@ This is a personal configuration but feel free to fork it and make your own modi
 ## List of Changes
 
 * Dub quote changed to dub in keys.py file 
+* Call command changed to invoke
