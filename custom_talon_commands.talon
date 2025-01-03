@@ -1,6 +1,7 @@
 # Terminal-specific Commands
 ## WLS/Bash
 make folder: "mkdir"
+create folder: "mkdir"
 list files: "ls"
 change folder: "cd"
 code: "code ."
@@ -32,19 +33,24 @@ express delete route: "app.delete('/', (request, response) => {})"
 express patch route: "app.patch('/', (request, response) => {})"
 express all route: "app.all('/', (request, response) => {})"
 express send response: "response.send()"
+express send json: "response.json()"
+
 express listen: "app.listen(port, () => {})"
 express error handling middleware: "app.use((error, request, response, next) => {});"
 express use route: "app.use();"
 
+
 install express: "npm install express"
 next function: "next()"
+
+## Jest
+install jest: "npm install jest supertest"
 
 ## Javascript
 console log: "console.log()"
 and: "&&"
 not: "!"
 const: "const"
-let: "let"
 async: "async"
 
 
@@ -52,7 +58,7 @@ async: "async"
 talent voice: "talon voice"
 open* Tick Talk: "TikTok"
 period: "."
-Jason: "json"
+json: "json"
 clock: "https://app.clockify.me/tracker"
 era: "error"
 
@@ -65,10 +71,17 @@ op dub: " => "
 (op | is) less [than] or equal: " <= "
 
 # Keyboard Shortcuts
-save: key("ctrl-s")
 copy: key("ctrl-c")
 cut: key("ctrl-x")
 menu help: key("ctrl-shift-?")
 peck: key("alt-;")
 close tab: key("alt-f4")
+switch tab: key("alt-tab")
+snip tool: key("super-shift-s")
+print screen: key("f0-super-space")
+show apps: key("super-tab")
+
+## VSCode Shortcuts
+kill terminal: key("shift-8 x")
+
 
