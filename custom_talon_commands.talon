@@ -88,3 +88,17 @@ kill terminal: key("shift-8 x")
 activate rango: key("ctrl-shift-1")
 disable hints: key("ctrl-shift-x")
 enable hints: key("ctrl-shift-8")
+
+## Helmet.js
+install helmet: "npm install helmet"
+helmet use: "app.use(helmet());"
+helmet cross policies: "app.use(helmet.permittedCrossDomainPolicies());"
+helmet referrer: "app.use(helmet.referrerPolicy());"
+helmet content policy: "app.use(helmet.contentSecurityPolicy({ directives: { defaultSrc: ['self'] } }));"
+
+
+## CORS
+install cors: "npm install cors"
+cors use: "app.use(cors());"
+cors origin: "app.use(cors({ origin: 'your-domain.com' }));"
+cors origins: "app.use(cors({ origin: ['domain1.com', 'domain2.com'] }));"
