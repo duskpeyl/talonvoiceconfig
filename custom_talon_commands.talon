@@ -84,4 +84,7 @@ show apps: key("super-tab")
 ## VSCode Shortcuts
 kill terminal: key("shift-8 x")
 
-
+# Rango
+activate rango: key("ctrl-shift-1")
+disable hints: key("ctrl-shift-x")
+enable hints: key("ctrl-shift-8")
