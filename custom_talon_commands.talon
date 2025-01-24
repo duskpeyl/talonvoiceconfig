@@ -102,3 +102,10 @@ install cors: "npm install cors"
 cors use: "app.use(cors());"
 cors origin: "app.use(cors({ origin: 'your-domain.com' }));"
 cors origins: "app.use(cors({ origin: ['domain1.com', 'domain2.com'] }));"
+
+## Figma
+select item:
+    key(shift:down)
+    mouse_click(0)
+
+group items: key(ctrl-g)
