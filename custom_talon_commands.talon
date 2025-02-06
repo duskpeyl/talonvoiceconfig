@@ -52,7 +52,7 @@ and: "&&"
 not: "!"
 const: "const"
 async: "async"
-
+lunge: "let"
 
 # Miscellaneous
 talent voice: "talon voice"
@@ -61,6 +61,8 @@ period: "."
 json: "json"
 clock: "https://app.clockify.me/tracker"
 era: "error"
+round: "()"
+
 
 arrow: "->"
 fat arrow: "=>"
@@ -80,9 +82,16 @@ switch tab: key("alt-tab")
 snip tool: key("super-shift-s")
 print screen: key("f0-super-space")
 show apps: key("super-tab")
+window save: key("ctrl-s")
 
 ## VSCode Shortcuts
 kill terminal: key("shift-8 x")
+VSCode shortcuts: key("ctrl-k ctrl-s")
+van cake: "visual studio code"
+activity: key("ctrl-shift-alt-1")
+close activity: key("ctrl-shift-alt-,")
+sidebar: key("ctrl-b")
+panel: key("ctrl-j")
 
 # Rango
 activate rango: key("ctrl-shift-1")
@@ -102,6 +111,13 @@ install cors: "npm install cors"
 cors use: "app.use(cors());"
 cors origin: "app.use(cors({ origin: 'your-domain.com' }));"
 cors origins: "app.use(cors({ origin: ['domain1.com', 'domain2.com'] }));"
+
+
+## jwt
+install jwt: "npm install jsonwebtoken"
+
+stack: ":"
+void: " "
 
 ## Figma
 select item:
